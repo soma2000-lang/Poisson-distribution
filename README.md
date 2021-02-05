@@ -1,1 +1,1 @@
-# gitttgutu
+Just a self study notebook
