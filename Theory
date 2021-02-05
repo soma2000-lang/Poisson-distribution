@@ -1,0 +1,9 @@
+Let Z be some random variable. Then associated with Z is a probability distribution function that assigns probabilities to the different outcomes Z can take.
+Discrete random variables may only assume values on a specified list. Things like currency, movie ratings, and number of votes are all discrete random variables.
+If Z is discrete, then its distribution is called a probability mass function, which measures the probability that Z takes on the value k, denoted P(Z = k). Note that the probability mass function completely describes the random variable Z; that is, if we know the mass function, we know how Z should behave. There are popular probability mass functions that consistently appear; we will introduce them as needed, but let’s introduce the first very useful probability mass function.
+λ is called a parameter of the distribution, and it controls the distribution’s shape. For the Poisson distribution, λ can be any positive number. By increasing λ, we add more probability to larger values; conversely, by decreasing λ, we add more probability to smaller values. One can describe λ as the intensity of the Poisson distribution.
+Unlike λ, which can be any positive number, the value k in the preceding formula must be a non-negative integer—that is, k must take on values 0, 1, 2, and so on. This is very important, because if you want to model a population, you cannot make sense of populations with 4.25 or 5.612 members.
+If a random variable Z has a Poisson mass distribution, we denote this by writing
+Z ~ Poi(λ)
+One useful property of the Poisson distribution is that its expected value is equal to its parameter. That is,
+E[Z|λ] = λ
