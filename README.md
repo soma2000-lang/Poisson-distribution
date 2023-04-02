@@ -1,1 +1,1 @@
-Just a self study notebook
+Somasree Learning Bayesian ML
